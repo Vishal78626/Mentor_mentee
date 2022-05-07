@@ -2,10 +2,10 @@
 import mariadb 
 
 conn = mariadb.connect(
-    user="root",
-    password="linux",
+    user="username",
+    password="password",
     host="localhost",
-    database="mentormentee")
+    database="database")
 cur = conn.cursor() 
 
 #retrieving information 
